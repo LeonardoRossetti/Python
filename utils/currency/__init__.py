@@ -1,4 +1,4 @@
-import utils.mesage
+import utils.message
 
 
 def increase(value, tax, _format=False):
@@ -53,7 +53,7 @@ def formatCurrency(value, currency='$'):
 
 
 def resume(value=0, taxIncrease=5, taxDecrease=5):
-    utils.mesage.showMessage('RESUME'.center(30), '-', 30)
+    utils.message.showMessage('RESUME'.center(30), '-', 30)
     print(f'Value: {formatCurrency(value)}')
     print(f'The half is \t\t{half(value, True)}')
     print(f'Decreasing in {taxDecrease}% \t{decrease(value, taxDecrease, True)}')
